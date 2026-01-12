@@ -15,15 +15,15 @@ This roadmap outlines the development phases for the first functional version of
 ### Tasks
 
 - [x] Create repository `core-dashboard-web`
-- [ ] Initialize Next.js 14 project with App Router
-- [ ] Configure TypeScript
-- [ ] Install and configure Tailwind CSS
-- [ ] Install and configure shadcn/ui
-- [ ] Setup project structure (folders, base files)
-- [ ] Create CLAUDE.md with development guidelines
-- [ ] Setup ESLint and Prettier
+- [x] Initialize Next.js 14 project with App Router
+- [x] Configure TypeScript
+- [x] Install and configure Tailwind CSS
+- [x] Install and configure shadcn/ui
+- [x] Setup project structure (folders, base files)
+- [x] Create CLAUDE.md with development guidelines
+- [x] Setup ESLint and Prettier
 - [ ] Create Supabase project
-- [ ] Configure environment variables (.env.local, .env.example)
+- [x] Configure environment variables (.env.local, .env.example)
 - [ ] Create GitHub OAuth App for authentication
 - [ ] Initial Vercel deployment (empty shell)
 
