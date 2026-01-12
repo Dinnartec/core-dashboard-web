@@ -68,23 +68,23 @@ Users can log in with GitHub. Only whitelisted emails can access. User record cr
 ### Tasks
 
 **Layout Components:**
-- [ ] Create `Sidebar` component (navigation items, collapsible)
-- [ ] Create `Header` component (logo, user menu)
-- [ ] Create `PageContainer` component (consistent wrapper)
-- [ ] Create `UserMenu` component (avatar, dropdown, logout)
-- [ ] Implement responsive sidebar (mobile hamburger menu)
+- [x] Create `Sidebar` component (navigation items, collapsible)
+- [x] Create `Header` component (logo, user menu)
+- [x] Create `PageContainer` component (consistent wrapper)
+- [x] Create `UserMenu` component (avatar, dropdown, logout)
+- [x] Implement responsive sidebar (mobile hamburger menu)
 
 **Base UI Components:**
-- [ ] Setup shadcn/ui base components (Button, Input, Select, etc.)
-- [ ] Create `Badge` component with status colors
-- [ ] Create `Card` component
-- [ ] Create `EmptyState` component
-- [ ] Create `Avatar` component
+- [x] Setup shadcn/ui base components (Button, Input, Select, etc.)
+- [x] Create `Badge` component with status colors
+- [x] Create `Card` component
+- [x] Create `EmptyState` component
+- [x] Create `Avatar` component
 
 **Navigation:**
-- [ ] Implement sidebar navigation links
-- [ ] Add active state to current route
-- [ ] Create basic routing structure (empty pages)
+- [x] Implement sidebar navigation links
+- [x] Add active state to current route
+- [x] Create basic routing structure (empty pages)
 
 ### Deliverable
 
