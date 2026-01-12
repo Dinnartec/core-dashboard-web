@@ -40,20 +40,20 @@ Empty Next.js project deployed, connected to Supabase, ready for development.
 ### Tasks
 
 **Database:**
-- [ ] Create all tables in Supabase (users, roles, verticals, project_statuses, projects, project_repos, project_links, team_members, solutions_metadata)
-- [ ] Add indexes
-- [ ] Configure Row Level Security (RLS) policies
-- [ ] Seed initial data (roles, verticals, statuses)
-- [ ] Create Supabase client utility
+- [x] Create all tables in Supabase (users, roles, verticals, project_statuses, projects, project_repos, project_links, team_members, solutions_metadata)
+- [x] Add indexes
+- [x] Configure Row Level Security (RLS) policies
+- [x] Seed initial data (roles, verticals, statuses)
+- [x] Create Supabase client utility
 
 **Authentication:**
-- [ ] Install and configure NextAuth.js
-- [ ] Setup GitHub OAuth provider
-- [ ] Create login page UI
-- [ ] Implement auth middleware (protect routes)
-- [ ] Create user on first login (sync with Supabase)
-- [ ] Implement email whitelist check
-- [ ] Create auth context/hook for client components
+- [x] Install and configure NextAuth.js
+- [x] Setup GitHub OAuth provider
+- [x] Create login page UI
+- [x] Implement auth middleware (protect routes)
+- [x] Create user on first login (sync with Supabase)
+- [x] Implement email whitelist check
+- [x] Create auth context/hook for client components
 
 ### Deliverable
 
