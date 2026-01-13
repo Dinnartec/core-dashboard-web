@@ -228,7 +228,7 @@ Users can view upcoming calls, either via embed or native list.
 
 ---
 
-## Phase 7 — Settings & Permissions
+## Phase 7 — Settings & Permissions ✅
 
 **Objective:** User settings and admin features.
 
@@ -236,22 +236,25 @@ Users can view upcoming calls, either via embed or native list.
 
 **API Routes:**
 - [x] `GET /api/users` — List users (admin only)
-- [ ] `PATCH /api/users/[id]` — Update user
-- [ ] `PATCH /api/users/[id]/role` — Change role (admin only)
+- [x] `GET /api/users/[id]` — Get single user
+- [x] `PATCH /api/users/[id]` — Update user
+- [x] `PATCH /api/users/[id]/role` — Change role (admin only)
+- [x] `DELETE /api/users/[id]` — Deactivate user (admin only)
+- [x] `GET /api/roles` — List roles
 
 **Settings Page:**
-- [ ] Profile section (view name, email, username)
-- [ ] Edit profile (name only, email from GitHub)
+- [x] Profile section (view name, email, username, avatar)
+- [x] Edit profile (name only, email from GitHub)
 
 **Admin Features:**
-- [ ] Team management section (list users, change roles)
-- [ ] Add user to whitelist
-- [ ] Deactivate user
+- [x] Team management section (list users, change roles)
+- [x] Deactivate user
+- [ ] Add user to whitelist (future enhancement)
 
 **Permissions:**
-- [ ] Implement permission checks in API routes
-- [ ] Hide admin-only UI for non-admins
-- [ ] Restrict edit to assigned projects for members
+- [x] Implement permission checks in API routes
+- [x] Hide admin-only UI for non-admins
+- [ ] Restrict edit to assigned projects for members (future enhancement)
 
 ### Deliverable
 
