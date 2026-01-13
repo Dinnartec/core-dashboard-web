@@ -202,18 +202,18 @@ Home page shows overview of all verticals, recent activity, and quick actions.
 
 ---
 
-## Phase 6 — Calendar Integration
+## Phase 6 — Calendar Integration ✅
 
 **Objective:** Basic calendar visibility.
 
 ### Tasks
 
 **Option A — Calendly Embed (simpler):**
-- [ ] Create Calendar page
-- [ ] Embed Calendly scheduling widget
-- [ ] Add "Open Calendly" external link
+- [x] Create Calendar page
+- [x] Embed Calendly scheduling widget
+- [x] Add "Open Calendly" external link
 
-**Option B — Webhook Integration (if time permits):**
+**Option B — Webhook Integration (future enhancement):**
 - [ ] Create `calendar_events` table
 - [ ] Setup Calendly webhook endpoint
 - [ ] `POST /api/webhooks/calendly` — Receive events
