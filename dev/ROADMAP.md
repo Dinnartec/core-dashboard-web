@@ -92,42 +92,42 @@ Authenticated users see the dashboard layout. Navigation works between empty pag
 
 ---
 
-## Phase 3 — Projects Core
+## Phase 3 — Projects Core ✅
 
 **Objective:** Full CRUD for projects working.
 
 ### Tasks
 
 **API Routes:**
-- [ ] `GET /api/projects` — List all projects
-- [ ] `POST /api/projects` — Create project
-- [ ] `GET /api/projects/[id]` — Get single project
-- [ ] `PATCH /api/projects/[id]` — Update project
-- [ ] `DELETE /api/projects/[id]` — Delete project (soft delete)
-- [ ] `GET /api/verticals` — List verticals
-- [ ] `GET /api/statuses` — List statuses
+- [x] `GET /api/projects` — List all projects
+- [x] `POST /api/projects` — Create project
+- [x] `GET /api/projects/[id]` — Get single project
+- [x] `PATCH /api/projects/[id]` — Update project
+- [x] `DELETE /api/projects/[id]` — Delete project (soft delete)
+- [x] `GET /api/verticals` — List verticals
+- [x] `GET /api/statuses` — List statuses
 
 **Projects List Page:**
-- [ ] Create `ProjectCard` component
-- [ ] Create `VerticalFilter` component (tabs)
-- [ ] Create `StatusBadge` component
-- [ ] Implement projects list with data fetching
-- [ ] Implement filter by vertical
-- [ ] Implement search by name/codename
-- [ ] Add "New Project" button
+- [x] Create `ProjectCard` component
+- [x] Create `VerticalFilter` component (tabs)
+- [x] Create `StatusBadge` component
+- [x] Implement projects list with data fetching
+- [x] Implement filter by vertical
+- [x] Implement search by name/codename
+- [x] Add "New Project" button
 
 **Create/Edit Project:**
-- [ ] Create project form component
-- [ ] Implement form validation
-- [ ] Create modal or page for new project
+- [x] Create project form component
+- [x] Implement form validation
+- [x] Create modal or page for new project
 - [ ] Handle Solutions metadata (conditional fields)
-- [ ] Implement edit mode
+- [x] Implement edit mode
 
 **Project Detail Page:**
-- [ ] Create `ProjectHeader` component
-- [ ] Create project detail layout with tabs
-- [ ] Implement Overview tab (description, dates)
-- [ ] Wire up edit functionality
+- [x] Create `ProjectHeader` component
+- [x] Create project detail layout with tabs
+- [x] Implement Overview tab (description, dates)
+- [x] Wire up edit functionality
 
 ### Deliverable
 
@@ -135,42 +135,43 @@ Users can list, create, view, edit, and delete projects. Filter and search worki
 
 ---
 
-## Phase 4 — Repos, Links & Team
+## Phase 4 — Repos, Links & Team ✅
 
 **Objective:** Manage project repos, links, and team members.
 
 ### Tasks
 
 **API Routes:**
-- [ ] `GET /api/projects/[id]/repos` — List project repos
-- [ ] `POST /api/projects/[id]/repos` — Add repo
-- [ ] `DELETE /api/projects/[id]/repos/[repoId]` — Remove repo
-- [ ] `GET /api/projects/[id]/links` — List project links
-- [ ] `POST /api/projects/[id]/links` — Add link
-- [ ] `DELETE /api/projects/[id]/links/[linkId]` — Remove link
-- [ ] `GET /api/projects/[id]/team` — List team members
-- [ ] `POST /api/projects/[id]/team` — Add team member
-- [ ] `DELETE /api/projects/[id]/team/[memberId]` — Remove member
+- [x] `GET /api/projects/[id]/repos` — List project repos
+- [x] `POST /api/projects/[id]/repos` — Add repo
+- [x] `DELETE /api/projects/[id]/repos?repoId=` — Remove repo
+- [x] `GET /api/projects/[id]/links` — List project links
+- [x] `POST /api/projects/[id]/links` — Add link
+- [x] `DELETE /api/projects/[id]/links?linkId=` — Remove link
+- [x] `GET /api/projects/[id]/team` — List team members
+- [x] `POST /api/projects/[id]/team` — Add team member
+- [x] `DELETE /api/projects/[id]/team?memberId=` — Remove member
+- [x] `GET /api/users` — List users for team member selection
 
 **Project Detail — Repos Tab:**
-- [ ] Create `RepoItem` component
-- [ ] List repos with links to GitHub
-- [ ] Add repo modal/form
-- [ ] Mark primary repo
-- [ ] Delete repo functionality
+- [x] Create `ReposTab` component
+- [x] List repos with links to GitHub
+- [x] Add repo modal/form
+- [x] Mark primary repo
+- [x] Delete repo functionality
 
 **Project Detail — Links Tab:**
-- [ ] Create `LinkItem` component
-- [ ] List links by type
-- [ ] Add link modal/form
-- [ ] Delete link functionality
+- [x] Create `LinksTab` component
+- [x] List links by type
+- [x] Add link modal/form
+- [x] Delete link functionality
 
 **Project Detail — Team Tab:**
-- [ ] Create `TeamMember` component
-- [ ] List assigned members with role
-- [ ] Add member modal (select from users)
-- [ ] Set member role (lead/member)
-- [ ] Remove member functionality
+- [x] Create `TeamTab` component
+- [x] List assigned members with role
+- [x] Add member modal (select from users)
+- [x] Set member role (lead/member)
+- [x] Remove member functionality
 
 ### Deliverable
 
@@ -178,22 +179,22 @@ Project detail page fully functional with repos, links, and team management.
 
 ---
 
-## Phase 5 — Home Dashboard
+## Phase 5 — Home Dashboard ✅
 
 **Objective:** Home page with overview and quick access.
 
 ### Tasks
 
 **API Routes:**
-- [ ] `GET /api/dashboard/stats` — Counts per vertical
-- [ ] `GET /api/dashboard/recent` — Recent projects
+- [x] `GET /api/dashboard/stats` — Counts per vertical
+- [x] `GET /api/dashboard/recent` — Recent projects
 
 **Home Page:**
-- [ ] Create vertical stats cards (count per vertical)
-- [ ] Create recent projects list
-- [ ] Add quick action "New Project"
-- [ ] Welcome message with user name
-- [ ] Link cards to filtered project list
+- [x] Create vertical stats cards (count per vertical)
+- [x] Create recent projects list
+- [x] Add quick action "New Project"
+- [x] Welcome message with user name
+- [x] Link cards to filtered project list
 
 ### Deliverable
 
@@ -234,7 +235,7 @@ Users can view upcoming calls, either via embed or native list.
 ### Tasks
 
 **API Routes:**
-- [ ] `GET /api/users` — List users (admin only)
+- [x] `GET /api/users` — List users (admin only)
 - [ ] `PATCH /api/users/[id]` — Update user
 - [ ] `PATCH /api/users/[id]/role` — Change role (admin only)
 
