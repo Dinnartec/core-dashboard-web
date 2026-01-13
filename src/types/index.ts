@@ -58,3 +58,34 @@ export interface TeamMember {
   role: TeamRole
   assigned_at: string
 }
+
+export interface VerticalRecord {
+  id: string
+  slug: Vertical
+  name: string
+  description?: string
+  is_active: boolean
+  display_order: number
+  created_at: string
+}
+
+export interface StatusRecord {
+  id: string
+  slug: ProjectStatus
+  name: string
+  color?: string
+  display_order: number
+  created_at: string
+}
+
+export interface TeamMemberWithUser extends TeamMember {
+  user: User
+}
+
+export interface ProjectWithRelations extends Project {
+  vertical: VerticalRecord
+  status: StatusRecord
+  team?: TeamMemberWithUser[]
+  repos?: ProjectRepo[]
+  links?: ProjectLink[]
+}

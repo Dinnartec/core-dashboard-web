@@ -1,1 +1,7 @@
 export { StatusBadge } from './StatusBadge'
+export { ProjectCard } from './ProjectCard'
+export { VerticalFilter } from './VerticalFilter'
+export { ProjectsList } from './ProjectsList'
+export { ProjectForm } from './ProjectForm'
+export { ProjectHeader } from './ProjectHeader'
+export { ProjectDetail } from './ProjectDetail'
